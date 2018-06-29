@@ -1,0 +1,13 @@
+<div>
+　<div><h1>这是父组件test1</h1></div>
+	<h2>子组件的数据(子到父)</h2>
+	<h3>显示子组件的数据：{{data_from_child}}</h3>
+
+　<div>
+	<!-- 在input输入数据传递到子组件test2中： -->
+<!-- 　<input type="text" [(ngModel)]="parent_data" > -->
+	<!-- <hr> -->
+<!-- 　<app-test2 (onChange)="onChange($event)"[data_from_parent]="parent_data" ></app-test2> -->
+<app-test2></app-test2> 
+　</div>
+</div>
